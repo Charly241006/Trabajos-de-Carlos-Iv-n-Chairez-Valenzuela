@@ -2,14 +2,17 @@
 #include <iostream>
 #include <windows.h>
 using namespace std;
-int main(void)
+int main( )
 {
 SetConsoleOutputCP(CP_UTF8);
 SetConsoleCP(CP_UTF8);
-int num;
-cout<< "Dame un ndmero: ";
-cin>>num;
-cout<<"Hola Mundo \n";
-cout<<"La variable num vale "<<num;
+int nip=123;
+int intento=0;
+cout<<"Teclea tu NIP: ";
+cin>>intento;
+if(intento==nip)
+{
+printf ("**Correcto**");
+}
 return 0;
 }
